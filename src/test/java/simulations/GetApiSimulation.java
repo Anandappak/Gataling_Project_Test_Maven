@@ -18,7 +18,7 @@ public class GetApiSimulation extends Simulation {
     private static final String API_PATH =
             System.getProperty(
                     "apiPath",
-                    "/api/v2/employees"
+                    "/api/v1/employees"
             );
 
     private final HttpProtocolBuilder httpProtocol =
